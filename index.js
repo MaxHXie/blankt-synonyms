@@ -1,25 +1,28 @@
 const dictionary = require('./dictionary.js');
-const synonyms = function(word,type){
+const synonyms = function(word, deepSearch){
+	let result = []
 	word = (word || "").toLowerCase();
-	type = (type || "").toLowerCase();
-	var entry = dictionary[word] || deep(word); // doesn't exist
-	if(!entry) return undefined;
-	else if(type) return entry[type];
-	else return entry;
+	if(deepSearch){
+		result = deep(word)
+	} else {
+		for(var type in dictionary[word]){
+			result.push(...dictionary[word][type])
+		}
+	}
+	return result
 };
 
 function deep(wordR){
-	var synonyms = {};
+	var result = [];
 	for(var entry in dictionary){
 		for(var type in dictionary[entry]){
 			if(~dictionary[entry][type].indexOf(wordR)) {
-				if(!synonyms[type]) synonyms[type] = [wordR];
-				synonyms[type].push(entry);
+				result.push(...dictionary[entry][type].filter(x => result.indexOf(x) === -1));
 			}
 		}
 	}
-	return Object.keys(synonyms).length ? synonyms : undefined;
+	return result;
 }
 
-synonyms.dictionary = dictionary;
 module.exports = synonyms;
+

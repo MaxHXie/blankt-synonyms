@@ -70748,7 +70748,9 @@
     ],
     "n": [
       "water",
-      "h2o"
+      "sea",
+      "lake",
+      "ocean"
     ]
   },
   "rainproof": {
@@ -70768,7 +70770,9 @@
     "v": [
       "brandish",
       "flourish",
-      "wave"
+      "wave",
+      "shake",
+      "swing"
     ],
     "n": [
       "brandish",
@@ -103778,6 +103782,12 @@
     "n": [
       "trample",
       "trampling"
+    ]
+  }, "apple": {
+    "n": [
+      "apple",
+      "fruit",
+      "vegetable"
     ]
   }
 }

@@ -58,6 +58,23 @@
       "desert"
     ]
   },
+  "desert": {
+    "n": [
+      "desert",
+      "cactus",
+      "sand",
+      "sahara",
+      "wild",
+      "safari"
+    ]
+  },
+  "beach": {
+    "n": [
+      "beach",
+      "summer",
+      "exotic"
+      ]
+    },
   "ferocity": {
     "n": [
       "ferocity",
@@ -8056,7 +8073,9 @@
     ],
     "n": [
       "race",
-      "n"
+      "racetrack",
+      "f1",
+      "highway"
     ]
   },
   "hunt": {
@@ -17552,9 +17571,24 @@
   "mountain": {
     "n": [
       "mountain",
-      "mount"
+      "mount",
+      "peak",
+      "summit",
+      "everest"
     ]
   },
+  "everest": {
+    "n": [
+      "everest",
+      "kilimanjaro",
+      "himalaya",
+      "himalayas",
+      "alps",
+      "k2",
+      "mont blanc",
+      "yosemite"
+      ]
+    },
   "patronize": {
     "v": [
       "patronize",
@@ -21806,7 +21840,10 @@
     ],
     "n": [
       "bird",
-      "fowl"
+      "fowl",
+      "eagle",
+      "crow",
+      "parrots"
     ]
   },
   "shuttlecock": {
@@ -23479,11 +23516,9 @@
       "bloom",
       "blossom",
       "efflorescence",
-      "flush"
-    ],
-    "v": [
-      "flower",
-      "v"
+      "flush",
+      "leaf",
+      "plant"
     ]
   },
   "blooming": {
@@ -24883,7 +24918,8 @@
   "bottle": {
     "n": [
       "bottle",
-      "bottleful"
+      "bottleful",
+      "vase"
     ]
   },
   "mildew": {
@@ -33218,7 +33254,8 @@
       "colorize",
       "colorise",
       "colourise",
-      "colourize"
+      "colourize",
+      "paint"
     ],
     "n": [
       "color",
@@ -33228,6 +33265,19 @@
       "vividness",
       "coloring",
       "colouring"
+    ],
+    "s":[
+      "color",
+      "red",
+      "blue",
+      "green",
+      "brown",
+      "white",
+      "black",
+      "orange",
+      "violet",
+      "pink",
+      "gray"
     ]
   },
   "discolor": {
@@ -57382,7 +57432,6 @@
   "normality": {
     "n": [
       "normality",
-      "n",
       "normalcy"
     ]
   },
@@ -58406,7 +58455,8 @@
   "ocean": {
     "n": [
       "ocean",
-      "sea"
+      "sea",
+      "lake"
     ]
   },
   "october": {
@@ -59866,8 +59916,7 @@
       "piss",
       "pee",
       "piddle",
-      "weewee",
-      "water"
+      "weewee"
     ]
   },
   "penitentiary": {

@@ -9,15 +9,15 @@ const synonyms = function(word, deepSearch){
 			result.push(...dictionary[word][type])
 		}
 	}
-	return result
+	return result.filter((x, i) => result.indexOf(x) === i)
 };
 
 function deep(wordR){
-	var result = [];
+	let result = []
 	for(var entry in dictionary){
 		for(var type in dictionary[entry]){
 			if(~dictionary[entry][type].indexOf(wordR)) {
-				result.push(...dictionary[entry][type].filter(x => result.indexOf(x) === -1));
+				result.push(...dictionary[entry][type]);
 			}
 		}
 	}

@@ -12,5 +12,13 @@
     "tags"
   ],
   "author": "iulia",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxHXie/blankt-synonyms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaxHXie/blankt-synonyms/issues"
+  },
+  "homepage": "https://github.com/MaxHXie/blankt-synonyms#readme"
 }
